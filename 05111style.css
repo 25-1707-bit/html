@@ -1,0 +1,66 @@
+/* .grad {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to right bottom, blue, white);
+}
+
+.grad1 {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to bottom, blue, white 30%, blue);
+}
+
+.grad2 {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background: repeating-linear-gradient(red, blue, 2px); */
+/* background: radial-gradient( */
+/*circle,*/
+/* white 30%, yellow 10%, red 60%); */
+/* }
+
+.grad3 {
+    display: inline-block;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle at 20% 20%, white, blue);
+} */
+
+body {
+    background-color: white;
+}
+
+section {
+    width: 600px;
+    margin: 20px auto;
+}
+
+p {
+    width: 500px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    line-height: 2;
+}
+
+/* 
+section p {
+    color: blue;
+} */
+/* section>p{
+    color: blue;
+} */
+/* 
+h1+p {
+    background-color: black;
+    color: white;
+} */
+
+h1~p {
+    background-color: black;
+    color: white;
+}

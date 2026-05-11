@@ -19,14 +19,14 @@ img {
     margin-right: 10px;
 } */
 
-.pos1 {
+/* .pos1 {
     position: static
         /*위치 고정*/
-    ;
-    width: 200px;
-    height: auto;
-    left: 50px;
-    top: 50px;
+;
+width: 200px;
+height: auto;
+left: 50px;
+top: 50px;
 
 }
 
@@ -61,4 +61,28 @@ p {
     top: 100px;
     color: white;
     text-shadow: 2px 3px 0 black;
+}
+
+*/ .monsterball {
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 5px dotted skyblue;
+    background-image: url(몬스터볼.jpg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: right top;
+}
+
+#ball1 {
+    background-origin: border-box;
+}
+
+#ball2 {
+    background-origin: padding-box;
+}
+
+#ball3 {
+    background-origin: content-box;
 }
